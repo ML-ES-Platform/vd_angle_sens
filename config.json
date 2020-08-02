@@ -1,19 +1,17 @@
 {
     "Components": {
         "vd_angle_sens": {
-            "Name": "vd_angle_sens",
             "git": "https://github.com/ML-ES-Platform/vd_angle_sens.git",
             "Path": "ESW/vd_angle_sens/",
             "Groups": {
                 "vd_angle_sens": {
-                    "Name": "vd_angle_sens",
                     "NameSpace": "vd_angle_sens",
                     "Multiplicity": "0-*",
                     "Push": [],
                     "Pull": [
                         "ANGSNS_GetAngle"
                     ],
-                    "Dependencies": [
+                    "Dependency": [
                         "dd_potentiometer"
                     ],
                     "Channels": {
