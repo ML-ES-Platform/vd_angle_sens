@@ -1,11 +1,11 @@
 {
     "Components": {
-        "vd_angle_sens": {
+        "vd_sns_angle": {
             "git": "https://github.com/ML-ES-Platform/vd_angle_sens.git",
-            "Path": "ESW/vd_angle_sens/",
+            "Path": "ESW/vd_sns_angle/",
             "Groups": {
                 "vd_angle_sens": {
-                    "NameSpace": "vd_angle_sens",
+                    "NameSpace": "vd_sns_angle",
                     "Multiplicity": "0-*",
                     "Push": [],
                     "Pull": [
